@@ -1,0 +1,169 @@
+body {
+    background-color: #B0F4FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+h1 {
+    font-size: 32px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-size: 18px;
+    color: #30A1B3;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Merriweather', serif;
+    
+}
+
+h4 {
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+img {
+    border: 1px solid;
+}
+
+p {
+    font-size: 14px;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    border: 3px;
+    border-style: solid;
+    background-color: #FFA65E;
+    margin: 15px;
+    padding: 15px;
+}
+
+.box {
+    width: 40%;
+    padding: 5px;
+}
+
+.caption {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration-color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration-color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.fa-envelope {
+    font-size: 28px;
+}
+
+.fa-link {
+    color: #30A1B3;
+}
+
+.fa-linkedin {
+    font-size: 28px;
+}
+
+.fa-mobile-alt {
+    font-size: 28px;
+}
+
+.navigation {
+    color: #30A1B3;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.url {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #30A1B3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+a:visited {
+    color: #4F37AB;
+}
+
+a:hover {
+    color: #B3601E;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+div.box:hover {
+    background-color: #FFB578;
+}
+
+input[type="text"], select {
+    font-family: inherit;
+    font-size: 100%;
+    width: 150px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 250px;
+}
+
+.inqText {
+    vertical-align: top;
+}
+        
