@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Beau's Portfolio - Projects</title>
+        <script src="https://kit.fontawesome.com/ff35d25b3e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <h1>My Portfolio - Beau Barth</h1>
+            <nav class="navigation">
+                <i class="far fa-hand-point-right"></i><a class="url" href="index.html">Home</a> |
+                <i class="far fa-hand-point-right"></i><a class="url" href="projects.html">Projects</a> |
+                <i class="far fa-hand-point-right"></i><a class="url" href="contact.html">Contact</a> |
+                <i class="far fa-hand-point-right"></i><a class="url" href="#">Link 4</a>
+            </nav>
+        </header>
+        <div id="frame">
+            <section>
+                <h2>Contact Beau</h2>
+                <p>Have a question? Need a quote? Use the form below to submit your inquiry! All responses submitted within 48 hours.</p>
+                <div id="contact-contain">
+                    <div class="box-contact">
+                        <form>
+                            <fieldset>
+                                <legend>Enter your information: </legend>
+                                <label>First Name: <input type="text" name="firstName"></label><br>
+                                <label>Last Name: <input type="text" name="lastName"></label><br>
+                                <label>Email Address: <input type="text" name="email"></label><br>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Submit your Inquiry</legend>
+                                <label>Date of Inquiry: <input type="date" name="inqDate"></label><br>
+                                <label>Inquiry Type:
+                                    <select>
+                                        <option value="Quote" name="inqType">Request Quote</option>
+                                        <option value="General" name="inqType">General Inquiry</option>
+                                    </select>
+                                </label>
+                                <br>
+                                <label>Inquiry: <textarea rows="5" cols="100" class="inqText" placeholder="Enter your inquiry here" name="inqDesc"></textarea></label>
+                            </fieldset>
+                            <fieldset>
+                                    <legend>Want to hear more about these topics?</legend>
+                                    <input type="checkbox" name="topic" value="HTML">HTML
+                                    <input type="checkbox" name="topic" value="Javascript">Javascript
+                                    <input type="checkbox" name="topic" value="CSS">CSS
+                                    <input type="checkbox" name="topic" value="Python">Python
+                            </fieldset>
+                            <input type="submit">
+                        </form>
+                    </div>
+                </div>                
+            </section>
+        </div>  
+        <footer>
+                <p class="contact">
+                    CONTACT : 
+                    <a class="url" href="mailto:beau.barth@gmail.com"><i class="far fa-envelope"></i></a>
+                    <a class="url" href="https://www.linkedin.com/in/beau-barth-6358a7bb"><i class="fab fa-linkedin"></i></a>
+                    <a class="url" href="tel:123-456-7890"><i class="fas fa-mobile-alt"></i></a>
+                </p>
+        </footer>
+    </body>
